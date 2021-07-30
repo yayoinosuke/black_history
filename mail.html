@@ -1,0 +1,75 @@
+﻿<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>☆メールフォーム☆</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body oncontextmenu="alert(`個人情報ください`);return false">
+<body>
+<p>なんか書いてけ</p>
+<form action="#" method="post">
+<table>
+<tr>
+<th><label for="yourname">お名前</label></th>
+<td><input type="text" name="name" size="30" placeholder="山田花子" id="yourname"></td>
+</tr>
+<tr>
+<th><label for="mail">メールアドレス</label></th>
+<td><input type="text" name="email" size="30" placeholder="sample@.com" id="mail"></td>
+</tr>
+<tr>
+<th>性別</th>
+<td>
+<label for="men">男性</label>
+<input type="radio" name="gender" value="男性" id="men">
+<label for="woman">女性</label>
+<input type="radio" name="gender" value="女性" id="woman">
+</td>
+</tr>
+<tr>
+<th>趣味</th>
+<td>
+<label for="movie">映画</label>
+<input type="checkbox" name="hobby" value="映画" id="movie">
+<label for="music">音楽</label>
+<input type="checkbox" name="hobby" value="音楽" id="music">
+<label for="travel">旅行</label>
+<input type="checkbox" name="hobby" value="旅行" id="travel">
+<label for="cook">料理</label>
+<input type="checkbox" name="hobby" value="料理" id="cook">
+</td>
+</tr>
+
+<tr>
+<th>趣味</th>
+<td>
+<select>
+<option value="11～15">11～15歳</option>
+<option value="16～20">16～20歳</option>
+<option value="21～25">21～25歳</option>
+<option value="26～30">26～30歳</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<th>コメント</th>
+<td>
+<textarea name="comment" placeholder="コメントを入力"></textarea>
+</td>
+</tr>
+</table>
+
+
+<div>
+<input type="submit" value="送信ボタン">
+<input type="reset" value="リセットボタン">
+</div>
+	</form>
+<br>
+<br>
+<br>
+<p class="modoru"><a href="index.html">トップに戻る</a></p>
+</body>
+</html>
